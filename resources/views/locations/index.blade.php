@@ -66,6 +66,7 @@
     const resultBox = document.getElementById('resultBox');
     const resultText = document.getElementById('resultText');
 
+
     division.addEventListener('change', function () {
         resetDropdowns(['district','thana','union']);
         if (!this.value) return;
@@ -77,6 +78,7 @@
                 district.disabled = false;
             });
     });
+
 
     district.addEventListener('change', function () {
         resetDropdowns(['thana','union']);
@@ -101,6 +103,7 @@
                 union.disabled = false;
             });
     });
+
 
     union.addEventListener('change', function () {
         showResult.disabled = !this.value;
