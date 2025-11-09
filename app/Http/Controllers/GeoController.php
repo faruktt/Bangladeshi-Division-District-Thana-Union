@@ -17,12 +17,16 @@ class GeoController extends Controller
         return view('locations.index', compact('divisions'));
     }
 
+
+
     // AJAX: Get districts by division
     public function getDistricts($division_id)
     {
         $districts = District::where('division_id', $division_id)->get();
         return response()->json($districts);
     }
+
+
 
     // AJAX: Get thanas by district
     public function getThanas($district_id)
@@ -31,6 +35,7 @@ class GeoController extends Controller
         return response()->json($thanas);
     }
 
+    
     // AJAX: Get unions by thana
     public function getUnions($thana_id)
     {

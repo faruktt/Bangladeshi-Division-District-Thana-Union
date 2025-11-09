@@ -11,7 +11,6 @@
 
 <div class="container py-5">
     <h2 class="mb-4 text-center">বাংলাদেশের Division → District → Thana → Union</h2>
-
     <div class="card p-4 shadow-sm">
         <div class="row g-3">
             <div class="col-md-3">
@@ -50,7 +49,6 @@
             <button id="showResult" class="btn btn-primary" disabled>Show Selection</button>
         </div>
     </div>
-
     <div id="resultBox" class="alert alert-info mt-4 d-none">
         <h5>আপনি যা নির্বাচন করেছেন:</h5>
         <p id="resultText" class="mb-0"></p>
