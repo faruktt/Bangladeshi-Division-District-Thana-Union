@@ -49,6 +49,7 @@
             <button id="showResult" class="btn btn-primary" disabled>Show Selection</button>
         </div>
     </div>
+    <!-- output -->
     <div id="resultBox" class="alert alert-info mt-4 d-none">
         <h5>আপনি যা নির্বাচন করেছেন:</h5>
         <p id="resultText" class="mb-0"></p>
@@ -56,6 +57,7 @@
 </div>
 
 <script>
+   
     const division = document.getElementById('division');
     const district = document.getElementById('district');
     const thana = document.getElementById('thana');
