@@ -51,7 +51,7 @@
     </div>
 
 
-     
+       -->
     <div id="resultBox" class="alert alert-info mt-4 d-none">
         <h5>আপনি যা নির্বাচন করেছেন:</h5>
         <p id="resultText" class="mb-0"></p>
